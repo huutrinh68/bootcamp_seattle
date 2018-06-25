@@ -1,0 +1,5 @@
+iris.data <- read.csv("/Users/nguyenhuutrinh/Google Drive/bootcamp/Datasets/Iris_Data.csv")
+head(iris.data)
+dim(iris.data)
+str(iris.data)
+levels(iris.data$Species)
